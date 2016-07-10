@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "ransack",
+  "description": "VideoChat+Data extract Plugin",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ransack.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+  "tabs",
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://localhost/*",
+    "http://www.yuvasankalpshivir.com/*",
+    "http://127.0.0.1:8888/*"
+
+  ]
+
+  
+}

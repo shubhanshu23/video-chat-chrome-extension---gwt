@@ -13,10 +13,10 @@ chrome.tabs.query(
         var x= url;
 
 
-
+//console check test
 req.open(
 "GET",
-"http://127.0.0.1:8888/ser?"+x,true);
+"http://127.0.0.1:8889/ser?"+x,true);
 
 req.send();
 
